@@ -65,6 +65,40 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+#index-header{
+    display: inline-block; 
+    margin-top: 2%;  
+    padding: 2%;
+}
+#index-header img{
+    float: left;
+    width: 30%;
+}
+#top-nav{
+    float: right;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#top-nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: 5%;
+    font-size: 1rem;
+    
+
+  
+}
+#top-nav a:first-child {
+margin-left: 150%;
+margin-right:0;
+}
 
 .container {
     width: 800px;
@@ -84,7 +118,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.jumbo{
+    padding: 2% 0;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +148,43 @@ p {
     justify-content: center;
 }
 
+#box-1{
+    background-color: teal;
+}
+#box-2{
+
+background-color: gold;
+}
+#box-3{
+
+    background-color: cadetblue;
+ }
+  #box-4{
+
+  background-color: coral;
+  }
+  #box-5{
+
+    background-color: crimson;
+    }
+#box-6{
+    background-color: forestgreen;
+}
+#box-7{
+    background-color: darkorchid;
+}
+
+#box-8{
+background-color: hotpink;
+}
+
+#box-9{
+    background-color: indigo;
+}
+#box-10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,6 +202,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 2%;
 }
 
 footer nav {
@@ -143,4 +217,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page styles */
+.about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#about-img{
+    padding: 2% 0;
+}
+#about-text,#together-text{
+    padding: 2%;
+}
+#work-together-text{
+    margin-top: 20px;
+    padding: 30%;
+}
+
+#about-flex, #about-flex-2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+
+.info{
+    padding-top: 2%;
+}
+.info p{
+    padding: 2%;
+}
+hr{
+    width: 90%;
+    border:none;
+    border-top:1px dotted black;
+    color:#fff;
+    background-color:#fff;
+    height:2px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.info button{
+    margin: 2%;
+    padding: 2% 3%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    border-radius: 10px;
+
 }
